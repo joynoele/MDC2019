@@ -1,3 +1,4 @@
+https://github.com/joynoele/MDC2019
 # MDC2019: Structured Logging with Serilog in .NET Core
 
 https://mdc.ilmservice.com/sessions/
