@@ -1,0 +1,12 @@
+C:\Users\Elsa\Source\Repos\NDC2019\BasicConcepts\bin\Debug\netcoreapp3.0\Console.exe
+C:\Users\Elsa\Source\Repos\NDC2019\BasicConcepts\obj\Debug\netcoreapp3.0\Console.csprojAssemblyReference.cache
+C:\Users\Elsa\Source\Repos\NDC2019\BasicConcepts\obj\Debug\netcoreapp3.0\Console.AssemblyInfoInputs.cache
+C:\Users\Elsa\Source\Repos\NDC2019\BasicConcepts\obj\Debug\netcoreapp3.0\Console.AssemblyInfo.cs
+C:\Users\Elsa\Source\Repos\NDC2019\BasicConcepts\bin\Debug\netcoreapp3.0\Serilog.dll
+C:\Users\Elsa\Source\Repos\NDC2019\BasicConcepts\obj\Debug\netcoreapp3.0\Console.csproj.CopyComplete
+C:\Users\Elsa\Source\Repos\NDC2019\BasicConcepts\bin\Debug\netcoreapp3.0\Serilog.Sinks.File.dll
+C:\Users\Elsa\Source\Repos\NDC2019\BasicConcepts\bin\Debug\netcoreapp3.0\Serilog.Sinks.Console.dll
+C:\Users\Elsa\Source\Repos\NDC2019\BasicConcepts\bin\Debug\netcoreapp3.0\Serilog.Enrichers.Environment.dll
+C:\Users\Elsa\Source\Repos\NDC2019\BasicConcepts\bin\Debug\netcoreapp3.0\Serilog.Formatting.Compact.dll
+C:\Users\Elsa\Source\Repos\NDC2019\BasicConcepts\bin\Debug\netcoreapp3.0\Serilog.Sinks.PeriodicBatching.dll
+C:\Users\Elsa\Source\Repos\NDC2019\BasicConcepts\bin\Debug\netcoreapp3.0\Serilog.Sinks.Seq.dll

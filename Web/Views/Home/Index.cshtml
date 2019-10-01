@@ -1,0 +1,66 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<script type="text/javascript">
+    function createNode(element) {
+        return document.createElement(element);
+    }
+    function append(parent, el) {
+        return parent.appendChild(el);
+    }
+
+    // Fetch docs: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+    function CutTree(id) {
+        const img = document.getElementById(id);
+        const url = '/api/Forest?id=' + id;
+        fetch(url, { method: 'POST' })
+            .then((resp) => resp.json())
+                .then(function (data) {
+                    let tree = data;
+                    img.src = tree.imageUrl;
+                })
+                .catch(function (error) {
+                    console.log(JSON.stringify(error));
+                });
+    }
+    function GetTrees() {
+        const ul = document.getElementById('trees');
+        const url = '/api/Forest';
+        fetch(url)
+            .then((resp) => resp.json())
+            .then(function (data) {
+                let trees = data;
+                return trees.map(function (tree) {
+                    let li = createNode('li'),
+                        img = createNode('img'),
+                        btn = createNode('button');
+                    img.src = tree.imageUrl;
+                    btn.innerHTML = `Cut ${tree.height}ft ${tree.type}`;
+                    btn.addEventListener('click', function () { CutTree(tree.id) });
+                    img.id = tree.id;
+                    append(li, img);
+                    append(li, btn)
+                    append(ul, li);
+                })
+            })
+            .catch(function (error) {
+                console.log(JSON.stringify(error));
+            });
+    }
+    window.onload = GetTrees();
+</script>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>LogTrees</title>
+</head>
+<body>
+    <h1>Forest</h1>
+    <ul id="trees"></ul>
+    <button onclick="GetTrees()">Populate forest</button>
+</body>
+</html>

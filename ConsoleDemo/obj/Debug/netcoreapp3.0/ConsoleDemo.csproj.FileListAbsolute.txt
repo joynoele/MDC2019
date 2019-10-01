@@ -1,0 +1,14 @@
+C:\Users\Elsa\Source\Repos\NDC2019\ConsoleDemo\bin\Debug\netcoreapp3.0\ConsoleDemo.exe
+C:\Users\Elsa\Source\Repos\NDC2019\ConsoleDemo\obj\Debug\netcoreapp3.0\ConsoleDemo.csprojAssemblyReference.cache
+C:\Users\Elsa\Source\Repos\NDC2019\ConsoleDemo\obj\Debug\netcoreapp3.0\ConsoleDemo.AssemblyInfoInputs.cache
+C:\Users\Elsa\Source\Repos\NDC2019\ConsoleDemo\obj\Debug\netcoreapp3.0\ConsoleDemo.AssemblyInfo.cs
+C:\Users\Elsa\Source\Repos\NDC2019\ConsoleDemo\bin\Debug\netcoreapp3.0\Serilog.dll
+C:\Users\Elsa\Source\Repos\NDC2019\ConsoleDemo\obj\Debug\netcoreapp3.0\ConsoleDemo.csproj.CopyComplete
+C:\Users\Elsa\Source\Repos\NDC2019\ConsoleDemo\bin\Debug\netcoreapp3.0\Serilog.Sinks.File.dll
+C:\Users\Elsa\Source\Repos\NDC2019\ConsoleDemo\bin\Debug\netcoreapp3.0\Serilog.Formatting.Compact.dll
+C:\Users\Elsa\Source\Repos\NDC2019\ConsoleDemo\bin\Debug\netcoreapp3.0\Serilog.Sinks.PeriodicBatching.dll
+C:\Users\Elsa\Source\Repos\NDC2019\ConsoleDemo\bin\Debug\netcoreapp3.0\Serilog.Sinks.Seq.dll
+C:\Users\Elsa\Source\Repos\NDC2019\ConsoleDemo\bin\Debug\netcoreapp3.0\MongoDB.Bson.dll
+C:\Users\Elsa\Source\Repos\NDC2019\ConsoleDemo\bin\Debug\netcoreapp3.0\MongoDB.Driver.dll
+C:\Users\Elsa\Source\Repos\NDC2019\ConsoleDemo\bin\Debug\netcoreapp3.0\MongoDB.Driver.Core.dll
+C:\Users\Elsa\Source\Repos\NDC2019\ConsoleDemo\bin\Debug\netcoreapp3.0\Serilog.Sinks.MongoDB.dll
